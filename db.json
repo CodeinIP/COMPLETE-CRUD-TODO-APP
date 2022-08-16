@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "learn crud",
+      "category": "Official",
+      "date": "10/10/22",
+      "status": "inprogress",
+      "subTasks": [
+        {
+          "id": 1,
+          "title": "learn GET",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Morning Exercise Routine",
+      "category": "Personal",
+      "date": "10/10/22",
+      "status": "done",
+      "subTasks": [
+        {
+          "id": 1,
+          "title": "Do 50 pushups",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Keep eye on animals",
+      "category": "Others",
+      "date": "10/10/22",
+      "status": "inprogress",
+      "subTasks": [
+        {
+          "id": 1,
+          "title": "Give grass",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Office work",
+      "category": "Official",
+      "date": "10/10/22",
+      "status": "todo",
+      "subTasks": [
+        {
+          "id": 1,
+          "title": "Attend meet at 10:00am",
+          "status": false
+        }
+      ]
+    }
+  ]
+}

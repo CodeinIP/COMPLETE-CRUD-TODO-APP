@@ -1,0 +1,70 @@
+.calender {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 30%));
+  justify-content: space-between;
+}
+.calender > div > h3 {
+  border: 3px solid gray;
+}
+.task {
+  border: 2px solid lightcoral;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content:space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.desc_time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.desc_time > h3 {
+  font-size: 13px;
+  padding: 3px 6px;
+  font-weight: bold;
+  border: 2px solid rgb(58, 55, 55);
+}
+span {
+  font-size: 10px;
+}
+.sub_tasks > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin:10px auto;
+}
+/* .sub_tasks > div input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(122, 175, 255);
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+} */
+/*
+.sub_tasks > div input[type="checkbox"] {
+  display: grid;
+  place-content: center;
+}
+
+.sub_tasks > div input[type="checkbox"]:checked:before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  transform-origin: bottom left;
+  color:blue;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.sub_tasks > div input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+clip-path: polygon(49% 59%, 100% 0, 55% 100%, 0 55%, 23% 31%);
+*/
