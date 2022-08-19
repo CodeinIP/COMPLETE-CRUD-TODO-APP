@@ -15,9 +15,12 @@
   align-items: center;
   justify-content: center;
 }
-.tasks > h3 {
-  border: 2px solid lightblue;
-  margin: 0.5rem;
-  width: 140px;
+.tasks >button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tasks>button>span{
+  font-size: 1rem;
 }
 

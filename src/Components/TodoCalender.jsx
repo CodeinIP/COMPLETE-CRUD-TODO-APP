@@ -6,7 +6,6 @@ const TodoCalender = ({ store }) => {
   const Todo = allTasks.filter((ele) => ele.status === "todo");
   const InProgress = allTasks.filter((ele) => ele.status === "inprogress");
   const Done = allTasks.filter((ele) => ele.status === "done");
-  console.log(Todo, InProgress, Done);
   return (
     <>
       {isError ? (

@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25%, 30%));
   justify-content: space-between;
+  background-color: white;
+  color:black;
+  padding: 5px;
+  box-sizing: border-box;
 }
 .calender > div > h3 {
   border: 3px solid gray;
@@ -21,12 +25,19 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  /* border: 1px solid red; */
+  flex-wrap:wrap;
 }
 .desc_time > h3 {
   font-size: 13px;
   padding: 3px 6px;
   font-weight: bold;
   border: 2px solid rgb(58, 55, 55);
+}
+.desc_time>p{
+  font-size: 9px;
+  font-style: italic;
+  font-weight: bold;
 }
 span {
   font-size: 10px;
